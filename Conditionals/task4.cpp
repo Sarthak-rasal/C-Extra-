@@ -21,15 +21,15 @@ int main()
     {
     case 1:
         price = 2.0;
-        cout << "You selected Green Tea." << price << endl;
+        cout << "You selected Green Tea. Price per cup:" << price << " Dollors" << endl;
         break;
     case 2:
         price = 3.0;
-        cout << "You selected lemon Tea." << price << endl;
+        cout << "You selected lemon Tea. Price per cup:" << price << " Dollors" << endl;
         break;
     case 3:
         price = 4.0;
-        cout << "You selected Oolong Tea." << price << endl;
+        cout << "You selected Oolong Tea. Price per cup:" << price << " Dollors" << endl;
         break;
     default:
         cout << "Invalid choice" << endl;
