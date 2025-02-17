@@ -13,11 +13,11 @@ int main()
 
     // ask for quantity
 
-    cout << "how many cups of " << userTea << "would you like to have ";
+    cout << "how many cups of " << userTea << " would you like to have :";
     cin >> teaQuantity;
 
-    cout << teaQuantity;
-    cout << userTea;
+    cout << teaQuantity << " ";
+    cout << userTea << " order placed";
 
     return 0;
 }
