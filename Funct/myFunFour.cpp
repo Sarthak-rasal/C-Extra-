@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // lambda functions
     auto sum = [](int a, int b)
     {
         return a + b;
